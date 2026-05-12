@@ -1,0 +1,8 @@
+version = 1
+revision = 3
+requires-python = ">=3.11"
+
+[[package]]
+name = "gru-0512-alignment"
+version = "0.1.0"
+source = { virtual = "." }

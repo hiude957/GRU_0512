@@ -1,0 +1,34 @@
+# Raw and generated data
+dataset/
+outputs/
+cache/
+caches/
+models/
+checkpoints/
+logs/
+runs/
+wandb/
+tensorboard/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# uv local state and temporary files
+.uv-cache/
+uv-cache/
+uv-tmp/
+*.tmp
+*.temp
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/

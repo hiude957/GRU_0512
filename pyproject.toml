@@ -1,0 +1,7 @@
+[project]
+name = "gru-0512-alignment"
+version = "0.1.0"
+description = "Livedata-window 110ms alignment utilities for GRU_0512 dataset"
+requires-python = ">=3.11"
+dependencies = []
+

@@ -1,0 +1,7 @@
+interface:
+  display_name: "NAURA 半导体 GRU 项目说明"
+  short_description: "仅用于当前 NAURA 项目，解释数据对齐、GRU 训练、评估、uv 与 Git 规则"
+  default_prompt: "Use the project-local $semiconductor-trainset-alignment skill only for this NAURA GRU repository. Explain raw sources, merge logic, aligned TSV and cache semantics, evt/state and source/source_code policy, GRU training recommendations for A100 80G, closed-loop one-month prediction goals, normalized accuracy rules, uv cache/tmp constraints, and GitHub upload rules."
+
+policy:
+  allow_implicit_invocation: true
