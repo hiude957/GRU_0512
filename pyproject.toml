@@ -2,6 +2,9 @@
 name = "gru-0512-alignment"
 version = "0.1.0"
 description = "Livedata-window 110ms alignment utilities for GRU_0512 dataset"
-requires-python = ">=3.11"
-dependencies = []
-
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "numpy>=2.4.4",
+    "torch==2.4.1",
+    "tqdm>=4.66",
+]
