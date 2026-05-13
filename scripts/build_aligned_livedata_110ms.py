@@ -111,6 +111,9 @@ def parse_abs_time(text: str) -> datetime:
         return datetime.strptime(text, "%Y/%m/%d %H:%M:%S.%f")
     if text.count(":") >= 3:
         head, ms = text.rsplit(":", 1)
+        # Sensor files store the final colon field as milliseconds, not
+        # fractional seconds.  ":7" means 007 ms and ":87" means 087 ms.
+        ms = ms.zfill(3)
         return datetime.strptime(f"{head}.{ms}", "%Y/%m/%d %H:%M:%S.%f")
     return datetime.strptime(text, "%Y/%m/%d %H:%M:%S")
 

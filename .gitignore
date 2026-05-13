@@ -9,6 +9,7 @@ logs/
 runs/
 wandb/
 tensorboard/
+*.pptx
 
 # Python
 .venv/
